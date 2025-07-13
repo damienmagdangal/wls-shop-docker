@@ -41,9 +41,9 @@ After downloading this repository, make sure to clone the welearnsecshop project
 ├── Dockerfile
 ├── docker-compose.yml
 └── welearnsecshop/
-```
 
 To clone vulnerable app:
+
 ```bash
 git clone https://github.com/welearnsec/welearnsecshop
 
