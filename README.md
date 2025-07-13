@@ -22,11 +22,13 @@ Run the following command from the project directory:
 
 ```bash
 docker-compose up --build
+```
 
 To reset the lab environment:
 
 ```bash
 docker-compose down -v
+```
 
 ## 📝 Additional Notes
 
@@ -41,11 +43,13 @@ After downloading this repository, make sure to clone the welearnsecshop project
 ├── Dockerfile
 ├── docker-compose.yml
 └── welearnsecshop/
+```
 
 To clone vulnerable app:
 
 ```bash
 git clone https://github.com/welearnsec/welearnsecshop
+```
 
 ### 🌐 Access the Application
 
@@ -53,6 +57,7 @@ The vulnerable app will be accessible at:
 
 ```bash
 http://localhost:8086
+```
 
 PHPMyAdmin creds can be found at docker-compose.yml file.
 
