@@ -30,15 +30,6 @@ To reset the lab environment:
 docker-compose down -v
 ```
 
-Don't forget to update includes/config.php!
-
-```bash
-$servername = "db";
-$username = "<CAN BE FOUND AT docker-compose.yml file>";
-$password = "<CAN BE FOUND AT docker-compose.yml file>" ;
-$dbname = "welearnsecshop";
-```
-
 ## 📝 Additional Notes
 
 ### 📁 Directory Structure
@@ -58,6 +49,15 @@ To clone vulnerable app:
 
 ```bash
 git clone https://github.com/welearnsec/welearnsecshop
+```
+
+Don't forget to update includes/config.php!
+
+```bash
+$servername = "db";
+$username = "<CAN BE FOUND AT docker-compose.yml file>";
+$password = "<CAN BE FOUND AT docker-compose.yml file>" ;
+$dbname = "welearnsecshop";
 ```
 
 ### 🌐 Access the Application
